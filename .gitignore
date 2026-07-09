@@ -1,0 +1,29 @@
+# https://git-scm.com/docs/gitignore
+
+# ---------------------------------------------------------------------
+# DO NOT CHANGE THIS SECTION
+
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+build/
+coverage/
+
+# Generated at runtime
+*.log
+.cache
+
+# Personal files
+.idea
+
+# System files
+.DS_Store
+
+# ---------------------------------------------------------------------
+# Add specific rules here…
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
